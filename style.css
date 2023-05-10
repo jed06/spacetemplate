@@ -1,12 +1,16 @@
 /* Basic layout styles */
-#icon {
-  position: relative;
-  top: 20px;
-  right: 20px;
-  width: 30px;
-  height: 30px;
-  z-index: 999;
-}
+<a href="https://www.tritonhacks.org/"><img id="corner-image" src="path/to/image.jpg" alt="Alternate text">
+
+<style>
+  #corner-image {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    z-index: 999;
+  }
+</style>
 
 body {
 	font-family: "Montserrat", sans-serif;
