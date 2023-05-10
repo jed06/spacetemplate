@@ -111,6 +111,11 @@ h2 {
 	box-sizing: border-box;
 }
 
+nav{
+	display: flex;
+	justify-content: space-around;
+}
+
 .welcome-container{
 	display: flex;
 	justify-content: space-around;
