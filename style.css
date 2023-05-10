@@ -114,6 +114,11 @@ h2 {
 
 .welcome-text-container{
 	display: flex;
+	justify-content: space-around;
+}
+
+.welcome-text{
+	font-size: 4rem;
 }
 
 
