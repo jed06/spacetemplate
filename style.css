@@ -1,4 +1,13 @@
 /* Basic layout styles */
+#icon {
+  position: relative;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  z-index: 999;
+}
+
 body {
 	font-family: "Montserrat", sans-serif;
 	background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
