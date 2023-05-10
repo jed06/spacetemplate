@@ -108,3 +108,12 @@ h2 {
 }
 
 
+*{
+	box-sizing: border-box;
+}
+
+.welcome-text-container{
+	display: flex;
+}
+
+
