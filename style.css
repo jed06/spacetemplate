@@ -116,6 +116,20 @@ nav{
 	justify-content: space-around;
 }
 
+.team-logo{
+	display: flex;
+}
+
+.logo-icon{
+	width: 3rem;
+	border-radius: 50px;
+}
+
+.team-name{
+	display: flex;
+	align-items: center;
+}
+
 .welcome-container{
 	display: flex;
 	justify-content: space-around;
