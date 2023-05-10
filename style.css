@@ -14,7 +14,7 @@ header {
 
 nav ul {
 	list-style: none;
-	margin: 0;
+	margin: 100px;
 	padding: 0;
 	display: flex;
 	justify-content: space-between;
@@ -30,7 +30,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: #f00;
+	color: 	#4B0082;
 }
 
 main {
