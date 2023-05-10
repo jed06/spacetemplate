@@ -111,13 +111,17 @@ h2 {
 	box-sizing: border-box;
 }
 
-.welcome-text-container{
+.welcome-container{
 	display: flex;
 	justify-content: space-around;
 }
 
-.welcome-text{
+.welcome-title{
 	font-size: 4rem;
+}
+
+.welcome-text{
+	
 }
 
 
