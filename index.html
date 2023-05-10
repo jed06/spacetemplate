@@ -1,67 +1,133 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Space-Themed Website</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Space Adventures</title>
+    <style>
+      body {
+        background-color: #0b0c10;
+        color: #c5c6c7;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        background-color: #1f2833;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav li {
+        margin: 0 10px;
+      }
+      
+      nav a {
+        color: #66fcf1;
+        text-decoration: none;
+      }
+      
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 20px;
+      }
+      
+      .card {
+        background-color: #1f2833;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #66fcf1;
+        margin: 20px;
+        overflow: hidden;
+        width: 300px;
+      }
+      
+      .card img {
+        width: 100%;
+      }
+      
+      .card h2 {
+        color: #66fcf1;
+        font-size: 24px;
+        margin: 10px 0;
+        text-align: center;
+      }
+      
+      .card p {
+        color: #c5c6c7;
+        font-size: 16px;
+        margin: 10px;
+        text-align: justify;
+      }
+      
+      footer {
+        background-color: #1f2833;
+        color: #c5c6c7;
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      footer a {
+        color: #66fcf1;
+        text-decoration: none;
+      }
+    </style>
   </head>
+  
   <body>
-    <!-- Header -->
     <header>
+      <h1>Space Adventures</h1>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Missions</a></li>
+          <li><a href="#">Astronauts</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
-
-    <!-- Home Page -->
-    <main id="home">
-      <h1>Welcome to Our Space-Themed Website</h1>
-      <p>Explore the vastness of space with us.</p>
-      <button>Learn More</button>
+    
+    <main>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1506750009212-7f6e453ffb4b" alt="Spaceship">
+        <h2>Interstellar Travel</h2>
+        <p>Travel to distant galaxies and explore new worlds on our state-of-the-art spacecraft.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1514496107922-a74c86e9c5a5" alt="Astronaut">
+        <h2>Become an Astronaut</h2>
+        <p>Train to become a space explorer and join our team of elite astronauts.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1516546170073-3f10b8ceb6a7" alt="Image">
+        <h2>Become an Astronaut</h2>
+        <p>Train to become a space explorer and join our team of elite astronauts.</p>
+         </div>
+     <div class="card">
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f5" alt="Space Station">
+        <h2>Orbital Station</h2>
+        <p>Live and work on our advanced space station, conducting research and studying the cosmos.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1583147979277-b8cfd5df37ba" alt="Moon">
+        <h2>Moon Landing</h2>
+        <p>Join us on a historic journey to land on the moon and explore its mysterious surface.</p>
+      </div>
     </main>
-
-    <!-- Project Page -->
-    <main id="projects">
-      <h1>Projects</h1>
-      <ul>
-        <li><a href="#">Project 1</a></li>
-        <li><a href="#">Project 2</a></li>
-        <li><a href="#">Project 3</a></li>
-      </ul>
-    </main>
-
-    <!-- About Page -->
-    <main id="about">
-      <h1>About Us</h1>
-      <p>We are a team of space enthusiasts who love exploring the mysteries of the universe.</p>
-    </main>
-
-    <!-- Contact Page -->
-    <main id="contact">
-      <h1>Contact Us</h1>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea><br>
-
-        <button>Send</button>
-      </form>
-    </main>
-
-    <!-- Footer -->
+    
     <footer>
-      <p>&copy; 2023 Space-Themed Website. All rights reserved.</p>
+      <p>Copyright &copy; 2023 Space Adventures
+        | Designed by <a href="#">Team Ocean Juice</a></p>
     </footer>
   </body>
 </html>
