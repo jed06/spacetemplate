@@ -30,7 +30,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: 	#4B0082;
+	color: 	#cc66cc;
 }
 
 main {
@@ -38,7 +38,7 @@ main {
 }
 
 footer {
-	background-color: #2b2b2b;
+	background-color: #050514;
 	padding: 20px;
 	text-align: center;
 }
