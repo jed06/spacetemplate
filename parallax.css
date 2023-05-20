@@ -18,6 +18,17 @@
   animation: slideAnimation 30s infinite linear;
 }
 
+.image1 {
+    background-image: url('https://t3.ftcdn.net/jpg/03/33/69/46/360_F_333694658_2bORPwsHeYW548B7OlYD4xS6wUYBOjAH.jpg');
+}
+
+.image2 {
+    background-image: url('your-image-url');
+}
+
+.image3 {
+  background-image: url('your-image-url');
+}
 @keyframes slideAnimation {
   0% {
     transform: translateZ(-100px);
