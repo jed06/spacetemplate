@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<link rel = "stylesheet" href = "parallax.css">
-<script src="parallax.js"></script> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel = "stylesheet" href = "parallax.css"></link>
+  <script src = "parallax.js"></src>
+  <title>Document</title>
 </head>
-<body>
+
 <body>
   <div id="pinContainer">
     <div id="slideContainer">
@@ -12,16 +17,20 @@
       <section id="sectionOne" class="panel">
         <b>ONE - Image Sequence</b>
         <div id="parallaxOne">
-          <img id="myimg" src="https://media.istockphoto.com/id/528777743/photo/snail-isolated-on-white.jpg?s=612x612&w=0&k=20&c=4NwVWfjJFGvNVXt_BIF8mJxaOaFtYCU-640n8fUxO_o=">
+          <img id="myimg" src="../../assets/img/example_imagesequence_01.png">
         </div>
       </section>
       
       <section id="sectionTwo" class="panel turqoise">
         <b>TWO</b>
         <div id="parallaxTwo">
-     
+          <button class="custom-tooltip" data-template="one">One</button>
+          <button class="custom-tooltip" data-template="two">Two</button>
+          <button class="custom-tooltip" data-template="three">Three</button>
+          
           <img class="layer1" src="http://pngimg.com/uploads/mario/mario_PNG109.png" alt="">
-
+          <h1 class="layer2">this is layer 2 from s2</h1>
+          <h1 class="layer3">this is layer 3 from s2</h1>
         </div>
       </section>
       
@@ -72,6 +81,7 @@
       </div>
     </div>
   </div>
-
+  
 </body>
-</html> 
+
+</html>
