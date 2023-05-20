@@ -1,5 +1,10 @@
 body {
-  background-color: white;
+   0% {
+    transform: translateZ(-100px);
+  }
+  100% {
+    transform: translateZ(-100px) translateX(-200%);
+  }
 }
 
 .slider {
@@ -21,14 +26,4 @@ body {
   transform-style: preserve-3d;
   transform: translateZ(-100px);
   animation: slideAnimation 30s infinite linear;
-}
-
-
-@keyframes slideAnimation {
-  0% {
-    transform: translateZ(-100px);
-  }
-  100% {
-    transform: translateZ(-100px) translateX(-200%);
-  }
 }
