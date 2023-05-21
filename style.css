@@ -129,3 +129,14 @@ nav{
   -webkit-text-fill-color: transparent;
 }
 /*# sourceMappingURL=index.css.map */
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
