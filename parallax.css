@@ -33,6 +33,7 @@
 
 .parallax-parent::-webkit-scrollbar {
   display: none;
+  overflow: hidden;
 }
 
 .background-colors {
