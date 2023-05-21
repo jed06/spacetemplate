@@ -96,6 +96,9 @@
 .parallax-child-container:nth-of-type(15){
   top: 850vw;
 }
+.parallax-child-container:nth-of-type(16){
+  top: 710vw;
+}
 .parallax-child {
   position: absolute;
   top: 50%;
