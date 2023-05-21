@@ -50,7 +50,7 @@
 .parallax-child-container {
   position: absolute;
   width: 100vh;
-  height: 500vw;
+  
   text-align: center;
   overflow: hidden;
   z-index: 1;
