@@ -68,9 +68,27 @@
 .parallax-child-container:nth-of-type(3) {
   top: 110vw;
 }
+
 .parallax-child-container:nth-of-type(4) {
   top: 170vw;
 }
+
+.parallax-child-container:nth-of-type(5) {
+  top: 230vw;
+}
+
+.parallax-child-container:nth-of-type(6) {
+  top: 290vw;
+}
+
+.parallax-child-container:nth-of-type(7) {
+  top: 350vw;
+}
+
+.parallax-child-container:nth-of-type(8) {
+  top: 410vw;
+}
+
 .parallax-child {
   position: absolute;
   top: 50%;
