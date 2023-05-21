@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .viewport {
@@ -10,6 +11,7 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 .parallax-parent {
@@ -29,11 +31,13 @@
           perspective-origin: 50% 50% 0;
   -webkit-perspective: 3px;
           perspective: 3px;
+  scroll-behavior: smooth;
 }
 
 .parallax-parent::-webkit-scrollbar {
   display: none;
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 .background-colors {
@@ -50,6 +54,7 @@
   text-align: center;
   overflow: hidden;
   z-index: 1;
+  scroll-behavior: smooth;
 }
 
 .parallax-child-container:nth-of-type(1) {
@@ -86,6 +91,7 @@
   transition: transform 3s ease-in-out, color 1s ease-in-out;
   transition: transform 3s ease-in-out, color 1s ease-in-out, -webkit-transform 3s ease-in-out;
   cursor: pointer;
+  scroll-behavior: smooth;
 }
 
 /* .parallax-child h1:hover {
@@ -103,6 +109,7 @@
   -webkit-transform: translateX(-50%) translateY(180%) translateZ(-8px) scale(2.5) rotate(90deg);
           transform: translateX(-50%) translateY(180%) translateZ(-8px) scale(2.5) rotate(90deg);
   z-index: 0;
+  scroll-behavior: smooth;
 }
 
 .parallax-background h1 {
@@ -113,5 +120,6 @@
   text-align: center;
   -webkit-text-stroke: 2px #ccc;
   -webkit-text-fill-color: transparent;
+  scroll-behavior: smooth;
 }
 /*# sourceMappingURL=index.css.map */
