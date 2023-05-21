@@ -39,9 +39,9 @@ clearInterval(timer);
 });
   console.log("DOM fully loaded and parsed");
 });
+document.addEventListener("DOMContentLoaded", (event)=> {
 window.onscroll = function() {myFunction()};
 
-document.addEventListener("DOMContentLoaded", (event)=> {
 function myFunction() {
   var winScroll = document.body.scrollTop document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
