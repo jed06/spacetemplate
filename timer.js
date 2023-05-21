@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   setInterval(() => {
     timer += 1 / 250;
     timerElement.textContent = parseFloat(timer.toFixed(10));
-    distanceElement.textContent = parseFloat(timer.toFixed(0)*speeds[index]);
+    distanceElement.textContent = parseFloat(timer.toFixed(0)*speeds[index])+" miles";
   }, 1);
   
   
