@@ -30,6 +30,7 @@ nav ul li a {
 }
 nav ul li a:hover {
 	color: 	#cc66cc;
+	font-size: 1.5vh;
 }
 .indexpage {
 	padding: 20px;
