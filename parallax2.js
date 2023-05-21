@@ -11,7 +11,7 @@ samp.addEventListner('mouseenter',()=>{
 			image.appendChild(temp)
 		}
 	})
-samp..addEventListner('mouseleave',()=>{
+samp.addEventListner('mouseleave',()=>{
 		image.removeChild()
 	})
 Array.prototype.forEach.call(imgs,(image,i)=>{
