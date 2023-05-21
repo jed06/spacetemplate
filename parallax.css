@@ -79,16 +79,13 @@
   top: 470vw;
 }
 .parallax-child-container:nth-of-type(10){
-  top: 510vw;
+  top: 530vw;
 }
  .parallax-child-container:nth-of-type(11){
-  top: 570vw;
+  top: 590vw;
     }
 .parallax-child-container:nth-of-type(12){
-  top: 630vw;
-    }
-.parallax-child-container:nth-of-type(12){
-  top: 690vw;
+  top: 650vw;
     }
 
 .parallax-child {
@@ -141,4 +138,14 @@
   scroll-behavior: smooth;
 }
 /*# sourceMappingURL=index.css.map */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
 
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
