@@ -42,6 +42,7 @@
 
 .background-colors {
  position: relative;
+  width: 100vh;
   background-repeat: repeat;
 }
 
