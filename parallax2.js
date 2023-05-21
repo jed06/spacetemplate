@@ -1,4 +1,4 @@
-const imgs = document.getElementByClassName("parallax-child")
+const imgs = document.getElementsByClassName("parallax-child")
 console.log(imgs)
 console.log(1)
 imgs.forEach((image,i)=>{
