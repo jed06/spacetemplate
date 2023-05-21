@@ -1,56 +1,40 @@
-/* Basic layout styles */
 body {
 	font-family: "OCR A Std", monospace;
 	background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
 	color: #fff;
 	margin: 0;
 	padding: 0;
-	min-height: 80%;
-	overflow: hidden;
 }
-
 header {
-	font-family: "OCR A Std", monospace;
 	background-color: #050514;
-	padding: 40px;
+	padding: 20px;
 }
-
 nav ul {
 	list-style: none;
 	margin: 0px;
-	padding: 100;
+	padding: 0;
 	display: flex;
 	justify-content: space-between;
 }
-
 nav ul li {
 	margin: 0 10px;
 }
-
 nav ul li a {
 	color: #fff;
 	text-decoration: none;
 }
-
 nav ul li a:hover {
 	color: 	#cc66cc;
 }
-
-{
+main {
 	padding: 20px;
-	transform-orgin : 30%;
 }
-
 footer {
 	background-color: #050514;
 	padding: 5px;
 	top: 800px;
 	width: 100%;
-	max-height: 100vh; 
-	display: flex;
-	flex-direction: column
 }
-
 /* Cyberpunk styles */
 body {
 	color: #fff;
@@ -59,105 +43,74 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "OCR A Std", monospace;
+	font-family: "VT323", monospace;
 	font-weight: normal;
 	margin: 0;
-}
-
+}  
 h1 {
 	font-size: 50px;
 	text-align: center;
 	margin-top: 50px;
 }
-
 h2 {
 	font-size: 40px;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
-
 h3 {
 	font-size: 30px;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
-
 p {
 	font-size: 18px;
 	text-align: center;
 }
-
 a {
 	color: #fff;
 	text-decoration: none;
 }
-
 a:hover {
 	color: #f00;
 }
-
 /* Center text */
 .text-center {
 	text-align: center;
 }
-
-
 /* Page layout styles */
-{
+main {
 	margin: 0 auto;
 	max-width: 800px;
 	padding: 20px;
 }
-
 h2 {
 	text-align: center;
 }
-
-
 *{
 	box-sizing: border-box;
 }
-
 nav{
 	display: flex;
 	justify-content: space-around;
 }
-
-
+.team-logo{
+	display: flex;
+}
 .logo-icon{
 	width: 3rem;
 	border-radius: 50px;
 }
-
+.team-name{
+	display: flex;
+	align-items: center;
+}
 .welcome-container{
 	display: flex;
 	justify-content: space-around;
 }
-
 .welcome-title{
-	font-size: 3rem;
+	font-size: 4rem;
 }
-
 .welcome-text{
 	
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-
-.parallax-background h1 {
-  height: 100vh;
-  line-height: 100vh;
-  font-family: sans-serif;
-  font-size: 10rem;
-  text-align: center;
-  -webkit-text-stroke: 2px #ccc;
-  -webkit-text-fill-color: transparent;
-}
-/*# sourceMappingURL=index.css.map */
-	
