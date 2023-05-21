@@ -18,10 +18,14 @@ Venus: 78,337
 Mercury: 107,082
 Meteor: 133,200 mph
 Fastest man made object: 430,000
-Light:670,616,629*/
+Light:670,616,629 */
 
 var index = 0;
 
+function changeIndex(i){
+  index = i;
+}
+ 
 document.addEventListener("DOMContentLoaded", (event) => {
   var timer = 0;
   var timerElement = document.getElementById("timer");
