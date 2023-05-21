@@ -36,8 +36,6 @@ document.addEventListener("DOMContentLoaded", (event)=> {
   }, 10);
 clearInterval(timer);
 });
-
-  console.log("DOM fully loaded and parsed");
 });
 window.onscroll = function() {myFunction()};
 
@@ -47,3 +45,5 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+  console.log("DOM fully loaded and parsed");
+});
