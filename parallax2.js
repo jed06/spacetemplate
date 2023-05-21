@@ -1,4 +1,4 @@
-const imgs = document.querySelectorAll("img")
+const imgs = document.getElementByClassName("parallax-child")
 console.log(imgs)
 imgs.forEach((image,i)=>{
 	image.addEventListner('mouseenter',()=>{
