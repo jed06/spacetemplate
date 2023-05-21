@@ -34,7 +34,7 @@ nav ul li a:hover {
 	color: 	#cc66cc;
 }
 
-main {
+.indexpage {
 	padding: 20px;
 	transform-orgin : 30%;
 }
@@ -101,7 +101,7 @@ a:hover {
 
 
 /* Page layout styles */
-main {
+.indexpage {
 	margin: 0 auto;
 	max-width: 800px;
 	padding: 20px;
