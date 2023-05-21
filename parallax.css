@@ -85,7 +85,10 @@
   top: 570vw;
     }
 .parallax-child-container:nth-of-type(12){
-  top: 650vw;
+  top: 630vw;
+    }
+.parallax-child-container:nth-of-type(12){
+  top: 690vw;
     }
 
 .parallax-child {
