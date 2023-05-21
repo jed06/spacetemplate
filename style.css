@@ -9,6 +9,7 @@ body {
 }
 header {
 	font-family: "OCR A Std", monospace;
+	position: sticky;
 	background-color: #050514;
 	padding: 40px;
 }
