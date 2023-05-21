@@ -4,6 +4,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   scroll-behavior: smooth;
+    overflow-y: hidden;
+
 }
 .viewport {
   position: relative;
