@@ -84,9 +84,7 @@
     .parallax-child-container: nth-of-type(11){
   top: 570vw;
     }
-        .parallax-child-container: nth-of-type(12){
-  top: 610vw;
-    }
+
 .parallax-child {
   position: absolute;
   top: 50%;
