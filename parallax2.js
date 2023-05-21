@@ -1,5 +1,4 @@
 const imgs = document.getElementsByClassName("parallax-child")
-console.log(imgs[0])
 console.log(1)
 Array.prototype.forEach.call(imgs,(image,i)=>{
 	console.log("check")
