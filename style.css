@@ -160,26 +160,3 @@ nav{
   -webkit-text-fill-color: transparent;
 }
 /*# sourceMappingURL=index.css.map */
-/* Style the header: fixed position (always stay at the top) */
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  z-index: 1;
-  width: 100%;
-  background-color: #f1f1f1;
-}
-
-/* The progress container (grey background) */
-.progress-container {
-  width: 100%;
-  height: 8px;
-  background: #ccc;
-}
-
-/* The progress bar (scroll indicator) */
-.progress-bar {
-  height: 8px;
-  background: #04AA6D;
-  width: 0%;
-}
