@@ -23,7 +23,8 @@ Light:670,616,629 */
 var index = 0;
 
 function changeIndex(i){
-  index = i 
+  index = i;
+  console.log("new index "+index);
 }
  
 document.addEventListener("DOMContentLoaded", (event) => {
