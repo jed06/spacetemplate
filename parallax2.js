@@ -1,7 +1,7 @@
 const imgs = document.getElementsByClassName("parallax-child")
 console.log(imgs)
 console.log(1)
-imgs.forEach((image,i)=>{
+Array.prototype.forEach.call(imgs,(image,i)=>{
 	image.addEventListner('mouseenter',()=>{
 		if(image.hasChild() == False){
 			console.log('mouse enter activated')
